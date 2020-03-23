@@ -18,6 +18,8 @@ class GameBase:
 class Player(GameBase):
     def __init__(self, name):
         self.name = name
+        self.hand = None
+        self.game = None
 
 class Game:
     def __init__(self, id):
